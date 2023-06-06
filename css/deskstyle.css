@@ -1,0 +1,14 @@
+@media screen and (min-width: 600px) {
+  .card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .card .img-mobile {
+    display: none;
+  }
+  .card .img-desktop {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=deskstyle.css.map */

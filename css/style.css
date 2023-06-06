@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-color: hsl(30, 38%, 92%);
+  display: grid;
+  place-content: center;
+}
+
+.card {
+  max-width: 40rem;
+  overflow: hidden;
+  background-color: hsl(0, 0%, 100%);
+  margin: 1rem;
+  border: 0;
+  border-radius: 1rem;
+}
+.card .img-desktop {
+  display: none;
+}
+.card .info-div {
+  padding: 1.5rem;
+  display: grid;
+  gap: 1rem;
+}
+.card .info-div .info-div--h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.8rem;
+  letter-spacing: 0.3rem;
+  color: hsl(228, 12%, 48%);
+}
+.card .info-div .info-div--name {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 2rem;
+}
+.card .info-div .info-div--text {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: hsl(228, 12%, 48%);
+  line-height: 1.5;
+}
+.card .info-div .info-div--price {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.card .info-div .info-div--price-new {
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: hsl(158, 36%, 37%);
+}
+.card .info-div .info-div--price-old {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+}
+.card .info-div .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem;
+  border: 0;
+  border-radius: 0.5rem;
+  background-color: hsl(158, 36%, 37%);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  color: hsl(0, 0%, 100%);
+}
+.card .info-div .btn:hover, .card .info-div .btn:focus {
+  background-color: hsl(212, 21%, 14%);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=style.css.map */
