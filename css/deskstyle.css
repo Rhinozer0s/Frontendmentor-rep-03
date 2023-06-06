@@ -3,6 +3,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .card .info-div{
+    padding: 2rem;
   .card .img-mobile {
     display: none;
   }
