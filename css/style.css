@@ -26,9 +26,7 @@ body {
   border: 0;
   border-radius: 1rem;
 }
-.card .img-desktop {
-  display: none;
-}
+
 .card .info-div {
   padding: 1.5rem;
   display: grid;
