@@ -30,7 +30,7 @@ body {
 .card .info-div {
   padding: 1.5rem;
   display: grid;
-  gap: 1rem;
+  align-content: space-between;
 }
 .card .info-div .info-div--h2 {
   font-family: "Montserrat", sans-serif;
