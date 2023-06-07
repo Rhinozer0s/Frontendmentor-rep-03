@@ -6,6 +6,10 @@
   .card .info-div{
     padding: 2rem;
   }
+  
+  .card img{
+    height: 100%;
+  }
 }
 
 /*# sourceMappingURL=deskstyle.css.map */
