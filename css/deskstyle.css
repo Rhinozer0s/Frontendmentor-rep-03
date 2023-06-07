@@ -6,12 +6,6 @@
   .card .info-div{
     padding: 2rem;
   }
-  .card .img-mobile {
-    display: none;
-  }
-  .card .img-desktop {
-    display: block;
-  }
 }
 
 /*# sourceMappingURL=deskstyle.css.map */
